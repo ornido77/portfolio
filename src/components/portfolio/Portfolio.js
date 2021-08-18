@@ -12,15 +12,21 @@ export default function Portfolio() {
                     </div>
                     <div className="item">
                         <img src="assets/js.png" alt="" />
-                        <h3>Javascript Cuurse</h3>
+                        <h3><a href="https://ornido77.github.io/Javascript-Course/" 
+                        target="_blank" 
+                        rel="noreferrer">Javascript Course</a></h3>
                     </div>
                     <div className="item">
                         <img src="assets/rpsgame.png" alt="" />
-                        <h3>RPS Game</h3>
+                        <h3><a href="https://ornido77.github.io/RPS-Game/" 
+                        target="_blank" 
+                        rel="noreferrer">RPS Game</a></h3>
                     </div>
                     <div className="item">
                         <img src="assets/portfolio.png" alt="" />
-                        <h3>My Portfolio Website</h3>
+                        <h3><a href="https://ornido77.github.io/portfolio/" 
+                        target="_blank" 
+                        rel="noreferrer">My Portfolio Website</a></h3>
                     </div>
             </div>
         </div>

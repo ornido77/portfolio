@@ -40,12 +40,12 @@ export default function Works() {
                 target="_blank" 
                 rel="noreferrer">
                 Click Here
-                </a>
+                </a> 
         },
         {
             id: "3",
             title: "RPS Game",
-            desc: "Rock, Paper, and Scissors javascript project.",
+            desc: "Rock, Paper, and Scissors Game, a mini javascript project.",
             img: "assets/rpsgame.png",
             type: "Learning JavaScript",
             credit: <a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ" 
@@ -113,7 +113,7 @@ export default function Works() {
                                 </div>
                             </div>
                             <div className="right">
-                                <img src={d.img} alt="" />
+                                <img src={d.img} alt="works"/>
                             </div>
                         </div>   
                     </div>

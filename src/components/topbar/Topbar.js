@@ -9,21 +9,29 @@ function Topbar({menuOpen, setMenuOpen}) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <div className="itemContainer">
+                    <div className="itemContainer item">
                         <Person className="icon" />
                         <span>+6396 8533 0471</span>
                     </div>
-                    <div className="itemContainer">
+                    <div className="itemContainer item">
                         <Mail className="icon" />
                         <span>sonnyornido0@gmail.com</span>
                     </div>
                     <div className="itemContainer">
-                        <GitHubIcon className="icon" />
-                        <a href="https://github.com/ornido77" target="_blank" rel="noreferrer">ornido77</a>
+                        <a href="https://github.com/ornido77" 
+                        target="_blank" 
+                        rel="noreferrer">
+                            <GitHubIcon className="icon"/>
+                            <span>ornido77</span>
+                        </a>
                     </div>
                     <div className="itemContainer">
-                        <FacebookIcon className="icon" />
-                        <a href="https://www.facebook.com/sonnyornido35" target="_blank" rel="noreferrer">sonnyornido35</a>
+                        <a href="https://www.facebook.com/sonnyornido35" 
+                        target="_blank" 
+                        rel="noreferrer">
+                            <FacebookIcon className="icon"/>
+                            <span>sonnyornido35</span>
+                        </a>
                     </div>
                 </div>
                 <div className="right">

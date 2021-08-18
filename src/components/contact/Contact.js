@@ -23,7 +23,8 @@ function Contact() {
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>
                     <button type="submit">Send</button>
-                    {message && <span>Front end only! ^_^</span>}
+                    {message && <span>Please contact me from the contact infos on the top bar.<p>This website is front end only.^_^</p></span>}
+                    <span></span>
                 </form>
                 <div className="iconContainer">
                     <a href="https://github.com/ornido77" target="_blank" rel="noreferrer"><GitHubIcon className="icon"/></a>

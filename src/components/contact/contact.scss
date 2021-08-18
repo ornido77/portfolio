@@ -65,6 +65,11 @@
             }
             span {
                 color: green;
+
+                p {
+                    color: inherit;
+                    text-align: center;
+                }
             }
         }
         .iconContainer {

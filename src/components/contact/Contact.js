@@ -23,12 +23,13 @@ function Contact() {
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>
                     <button type="submit">Send</button>
-                    {message && <span>Please contact me from the contact infos on the top bar.<p>This website is front end only.^_^</p></span>}
+                    {message && <span>Please contact me here 09685330471/sonnyornido0@gmail.com.<p>This website is front end only.^_^</p></span>}
                     <span></span>
                 </form>
                 <div className="iconContainer">
                     <a href="https://github.com/ornido77" target="_blank" rel="noreferrer"><GitHubIcon className="icon"/></a>
                     <a href="https://www.facebook.com/sonnyornido35" target="_blank" rel="noreferrer"><FacebookIcon className="icon"/></a>
+                    <p></p>
                 </div>
             </div>
         </div>

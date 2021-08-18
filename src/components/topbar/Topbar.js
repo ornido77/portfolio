@@ -10,10 +10,6 @@ function Topbar({menuOpen, setMenuOpen}) {
             <div className="wrapper">
                 <div className="left">
                     <div className="itemContainer item">
-                        <Person className="icon" />
-                        <span>+6396 8533 0471</span>
-                    </div>
-                    <div className="itemContainer item">
                         <Mail className="icon" />
                         <span>sonnyornido0@gmail.com</span>
                     </div>
@@ -32,6 +28,10 @@ function Topbar({menuOpen, setMenuOpen}) {
                             <FacebookIcon className="icon"/>
                             <span>sonnyornido35</span>
                         </a>
+                    </div>
+                    <div className="itemContainer item">
+                        <Person className="icon" />
+                        <span>+6396 8533 0471</span>
                     </div>
                 </div>
                 <div className="right">

@@ -25,7 +25,7 @@ function Intro() {
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>Sonny Ornido</h1>
-                    <p>A fresh grad. aspiring to be a software developer.</p> 
+                    <p>A fresh grad. BSIT student from Valenzuela City.</p> 
                     <p>I like to work with Python, JavaScript and React.</p> 
                     <p>Knowledge in C++, Java and Laravel.</p>                  
                     <h3><span ref={textRef}></span></h3>

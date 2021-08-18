@@ -15,7 +15,7 @@ function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon" />
-                        <span>sonnyornido0</span>
+                        <span>sonnyornido0@gmail.com</span>
                     </div>
                     <div className="itemContainer">
                         <GitHubIcon className="icon" />

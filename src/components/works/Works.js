@@ -18,6 +18,11 @@ export default function Works() {
                 target="_blank" 
                 rel="noreferrer">
                 Tech With Tim
+                </a>,
+            ghRepo: <a href="https://github.com/ornido77/Line-Queuing-and-Ticketing-System" 
+                target="_blank" 
+                rel="noreferrer">
+                Click Here
                 </a>
         },
         {
@@ -30,6 +35,11 @@ export default function Works() {
                 target="_blank" 
                 rel="noreferrer">
                 Clever Programming
+                </a>,
+            ghRepo: <a href="https://github.com/ornido77/Javascript-Course" 
+                target="_blank" 
+                rel="noreferrer">
+                Click Here
                 </a>
         },
         {
@@ -42,18 +52,28 @@ export default function Works() {
                 target="_blank" 
                 rel="noreferrer">
                 Freecodecamp.org
-                </a>
+                </a>,
+            ghRepo: <a href="https://github.com/ornido77/Javascript-Course" 
+                target="_blank" 
+                rel="noreferrer">
+                Click Here
+                </a>,
         },
         {
             id: "4",
             title: "My Portfolio Website",
-            desc: "This is my Portfolio Website",
+            desc: "This is my Portfolio Website built using React JS.",
             img: "assets/portfolio.png",
             type: "Web Portfolio Project",
             credit: <a href="https://www.youtube.com/channel/UCOxWrX5MIdXIeRNaXC3sqIg" 
                 target="_blank" 
                 rel="noreferrer">
                 Lama Dev
+                </a>,
+            ghRepo: <a href="https://github.com/ornido77/portfolio" 
+                target="_blank" 
+                rel="noreferrer">
+                Click Here
                 </a>
         }                                
     ]
@@ -76,7 +96,9 @@ export default function Works() {
                                         <ComputerIcon className="img"/>
                                     </div>
                                     <h2>{d.title}</h2>
+                                    <span>{d.type}</span>
                                     <p>{d.desc}</p>
+                                    <p>GitHub Repository {d.ghRepo}</p>
                                     <div className="YouTube">
                                         <div className="top">
                                             <h6>Credits to</h6>
@@ -88,7 +110,6 @@ export default function Works() {
                                             </div>
                                         </div>
                                     </div>
-                                    <span>{d.type}</span>
                                 </div>
                             </div>
                             <div className="right">

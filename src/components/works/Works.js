@@ -11,7 +11,7 @@ export default function Works() {
       id: "1",
       title: "Line Queueing System",
       desc: "A cross platform desktop application built using PyQt5 for our thesis project. Designed using QtDesigner and pure Python Backend development. It can print ticket numbers that will be shown on a monitor",
-      img: "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/242492742_153373230247801_6020378223581422512_n.png?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEDewgfscT0tgHBs2lctZi-_lGJ8s3Q4Uj-UYnyzdDhSKiam8KGbL11dglqz7ZVrdPCCyJem3m2VAvnbOiSDv3H&_nc_ohc=nalBS38vsTgAX8puqZ9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=a4c4138e385a7b5ecc3c90a661a43309&oe=616E9D9C",
+      img: "assets/line.png",
       type: "Python Project",
       credit: (
         <a
@@ -36,7 +36,7 @@ export default function Works() {
       id: "2",
       title: "Amazon Clone App - Demo",
       desc: "An e-commerce app based on Amazon built using ReactJS and Firebase. Functionalities like, add to basket, checkout orders, user authentication etc..",
-      img: "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/242492742_153373230247801_6020378223581422512_n.png?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEDewgfscT0tgHBs2lctZi-_lGJ8s3Q4Uj-UYnyzdDhSKiam8KGbL11dglqz7ZVrdPCCyJem3m2VAvnbOiSDv3H&_nc_ohc=nalBS38vsTgAX8puqZ9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=a4c4138e385a7b5ecc3c90a661a43309&oe=616E9D9C",
+      img: "assets/amazon.png",
       type: "React Project",
       credit: (
         <a
@@ -49,7 +49,7 @@ export default function Works() {
       ),
       ghRepo: (
         <a
-          href="https://github.com/ornido77/portfolio"
+          href="https://github.com/ornido77/amazon-clone-app"
           target="_blank"
           rel="noreferrer"
         >
@@ -64,11 +64,7 @@ export default function Works() {
       img: "assets/rpsgame.png",
       type: "JavaScript Project",
       credit: (
-        <a
-          href="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/242253052_983227425860639_3212262037113698587_n.png?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeFrlBHVfXMrMcT5vvX8ds_JP2brlLtWw3I_ZuuUu1bDcnnn9oaosj3EU2VWlbMDhwIirqm-X5foB_Cpd1YJdBiu&_nc_ohc=rXab2A-ykIQAX-4vMYJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6e9827a2aaca3416ee68e72fe0c38db8&oe=617037E9"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="assets/rpsgame.png" target="_blank" rel="noreferrer">
           Freecodecamp.org
         </a>
       ),
@@ -86,7 +82,7 @@ export default function Works() {
       id: "4",
       title: "My Portfolio Website",
       desc: "This is my Portfolio Website built using React JS and SASS, deployed using GitHub Pages",
-      img: "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/242562772_2320924431375938_8287196356178504579_n.png?_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGRgu7d3i5zqfv5VtOr77xG4McVCM4_hTDgxxUIzj-FMAQG2IShkz5loUlJzt3i_kAn5CZrgJ4DkID10gjNEdmm&_nc_ohc=iKbysdpDfdkAX-6UIs_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=4a06e97680e4b8a62cd56b45eb02b4b0&oe=616E8F16",
+      img: "assets/portfolio.png",
       type: "React Project",
       credit: (
         <a

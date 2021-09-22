@@ -1,39 +1,53 @@
-import "./contact.scss"
-import FacebookIcon from '@material-ui/icons/Facebook';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import "./contact.scss";
 import { useState } from "react";
+import emailjs from "emailjs-com";
 
 function Contact() {
+  const [message, setMessage] = useState(false);
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    const [message, setMessage] = useState(false)
+    emailjs
+      .sendForm(
+        "service_hta781o",
+        "template_227pxpe",
+        e.target,
+        "user_2W2NGJj2rrtbJYr49q67n"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    setMessage(true);
+  };
 
-    const handleSubmit = (e)=> {
-        e.preventDefault();
-        setMessage(true)
-    }
-
-    return (
-        <div className="contact" id="contact">
-            <div className="left">
-                <img src="https://raw.githubusercontent.com/safak/youtube/da700015c8a88050fad7b961e99a7039638ab3b2/public/assets/shake.svg" alt="" />
-            </div>
-            <div className="right">
-                <h2>Contact.</h2>
-                <form onSubmit = {handleSubmit}>
-                    <input type="text" placeholder="Email" />
-                    <textarea placeholder="Message"></textarea>
-                    <button type="submit">Send</button>
-                    {message && <span>Please contact me here 09685330471/sonnyornido0@gmail.com.<p>This website is front end only.^_^</p></span>}
-                    <span></span>
-                </form>
-                <div className="iconContainer">
-                    <a href="https://github.com/ornido77" target="_blank" rel="noreferrer"><GitHubIcon className="icon"/></a>
-                    <a href="https://www.facebook.com/sonnyornido35" target="_blank" rel="noreferrer"><FacebookIcon className="icon"/></a>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <div className="contact" id="contact">
+      <div className="left">
+        <img
+          src="https://raw.githubusercontent.com/safak/youtube/da700015c8a88050fad7b961e99a7039638ab3b2/public/assets/shake.svg"
+          alt=""
+        />
+      </div>
+      <div className="right">
+        <h2>Contact.</h2>
+        <form onSubmit={sendEmail}>
+          <input type="text" placeholder="Name" name="name" />
+          <input type="email" placeholder="Email" name="email" />
+          <input type="text" placeholder="Subject" name="subject" />
+          <textarea placeholder="message" name="message"></textarea>
+          <button type="submit">Send</button>
+          {message && <span>Thank you, I will reply soon.</span>}
+          <span></span>
+        </form>
+      </div>
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;

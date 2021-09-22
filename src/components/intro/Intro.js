@@ -17,10 +17,7 @@ function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="avatar">
-          <img
-            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p173x172/242600759_1229861534155269_4153491723792350973_n.png?_nc_cat=100&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeFyrXrkItn--vDGat24ctDsChakBhqtlkIKFqQGGq2WQly27lknzpFvFoO2G4JBZ9ymg76yPW_3hutFPaLmHyKl&_nc_ohc=QF8IXxP1IzsAX_3o8J1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=9f1bb33b7288e7092f2cb1cbc0c4043d&oe=6170CDAC"
-            alt="Avatar"
-          />
+          <img src="assets/avatar.png" alt="Avatar" />
         </div>
       </div>
       <div className="right">

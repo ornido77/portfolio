@@ -3,45 +3,86 @@
 .about {
 	display: flex;
 	flex-direction: column;
-	overflow-y: hidden;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 	.top {
-		flex: 8;
+		flex: 6;
 		display: flex;
+
 		@include mobile {
-			flex-direction: column;
+			flex-direction: column-reverse;
 		}
 		.left {
 			flex: 5;
-			margin: 100px 0px 100px 100px;
+			margin: 100px 0px 0px 100px;
 			@include mobile {
-				margin: 100px 70px 50px 70px;
+				display: flex;
+				justify-content: flex-start;
+				flex-direction: column;
+				margin: 0px 30px;
+				margin-bottom: 50px;
 			}
 			h1 {
+				font-size: 3rem;
 				margin-bottom: 10px;
+				@include mobile {
+					font-size: 3rem;
+				}
 			}
 			h4 {
 				margin-bottom: 30px;
+				@include mobile {
+					margin-bottom: 0px;
+					font-size: 1.2rem;
+					margin-bottom: 5px;
+				}
+			}
+			p {
+				@include mobile {
+					font-size: 1rem;
+				}
 			}
 		}
 		.right {
-			flex: 5;
+			flex: 4;
 			display: flex;
-			justify-content: center;
 			align-items: center;
+			justify-content: center;
+
 			.imgContainer {
 				img {
-					height: 60vh;
+					height: 45vh;
 					border-radius: 10px;
 					box-shadow: 0.3rem 0.3rem 0.65rem 0.2rem darkgray;
 					@include mobile {
 						height: 30vh;
+						border-radius: 50%;
+						margin-top: 120px;
+						box-shadow: 0.3rem 0.3rem 0.65rem 0.2rem #25252a;
 					}
 				}
 			}
 		}
 	}
 	.bot {
-		flex: 2;
+		flex: 5;
 		height: 20vh;
+		width: 90vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		justify-content: space-between;
+		margin-top: 10px;
+		.imgContainer {
+			img {
+				height: 120px;
+				border-radius: 5px;
+				box-shadow: 0.3rem 0.3rem 0.65rem 0.2rem darkgray;
+			}
+		}
+		@include mobile {
+			display: none;
+		}
 	}
 }

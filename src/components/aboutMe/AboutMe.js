@@ -2,10 +2,10 @@ import "./aboutMe.scss";
 
 function AboutMe() {
 	return (
-		<div className="main">
+		<div className="about">
 			<div className="top">
 				<div className="left">
-					<h1>about me</h1>
+					<h1>about me.</h1>
 					<h4>
 						I'm a Web Developer focusing on Front End Development
 						from Valenzuela City.

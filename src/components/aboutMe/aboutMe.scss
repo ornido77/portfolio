@@ -1,15 +1,30 @@
-.main {
+@import "../../global.scss";
+
+.about {
 	display: flex;
 	flex-direction: column;
 	overflow-y: hidden;
 	.top {
 		flex: 8;
 		display: flex;
+		@include mobile {
+			flex-direction: column;
+		}
 		.left {
-			flex: 7;
+			flex: 5;
+			margin: 100px 0px 100px 100px;
+			@include mobile {
+				margin: 100px 70px 50px 70px;
+			}
+			h1 {
+				margin-bottom: 10px;
+			}
+			h4 {
+				margin-bottom: 30px;
+			}
 		}
 		.right {
-			flex: 4;
+			flex: 5;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -17,6 +32,10 @@
 				img {
 					height: 60vh;
 					border-radius: 10px;
+					box-shadow: 0.3rem 0.3rem 0.65rem 0.2rem darkgray;
+					@include mobile {
+						height: 30vh;
+					}
 				}
 			}
 		}

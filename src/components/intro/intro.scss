@@ -82,12 +82,16 @@
 
 				@include mobile {
 					font-size: 68px;
+					margin: auto;
 				}
 			}
 			p {
 				font-size: 18px;
 				font-weight: 500;
 				margin-left: 50px;
+				@include mobile {
+					margin: auto;
+				}
 			}
 			h2 {
 				font-size: 35px;
@@ -96,6 +100,7 @@
 
 				@include mobile {
 					font-size: 50px;
+					margin: auto;
 				}
 			}
 			h3 {

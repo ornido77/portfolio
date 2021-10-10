@@ -8,7 +8,7 @@ import AboutMe from "./components/aboutMe/AboutMe";
 function App() {
 	return (
 		<div className="App">
-			<Topbar />
+			<Topbar classname="top" />
 			<div className="sections">
 				<Intro />
 				<AboutMe />

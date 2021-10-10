@@ -1,20 +1,19 @@
 @import "../../global.scss";
 
 .works {
-	height: 120vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	position: relative;
 	overflow: hidden;
 	@include mobile {
-		height: 100vh;
 		flex-direction: column;
 	}
 
 	.title {
 		display: flex;
 		justify-content: center;
-		margin-top: 100px;
+		margin-top: 30px;
 		@include mobile {
 			flex: 1;
 			align-items: flex-end;

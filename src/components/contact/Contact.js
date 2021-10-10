@@ -30,7 +30,7 @@ function Contact() {
 	};
 
 	return (
-		<div className="contact" id="contact">
+		<div className="contact">
 			<div className="top">
 				<div className="left">
 					<div className="itemContainer">

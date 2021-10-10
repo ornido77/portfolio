@@ -1,4 +1,3 @@
-import "./app.scss";
 import Intro from "./components/intro/Intro";
 import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";

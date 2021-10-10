@@ -18,12 +18,14 @@
 			align-items: center;
 			justify-content: space-between;
 
-			.left {
+			.topbar {
 				display: flex;
 				align-items: center;
+				justify-content: center;
 
 				.itemContainer {
 					display: flex;
+					justify-content: center;
 					align-items: center;
 					margin-left: 20px;
 
@@ -43,6 +45,7 @@
 					a {
 						font-size: 15px;
 						font-weight: 500;
+						align-items: center;
 						text-decoration: none;
 						color: inherit;
 						display: flex;
@@ -64,25 +67,6 @@
 				.item {
 					@include mobile {
 						display: none;
-					}
-				}
-			}
-
-			.right {
-				.hamburger {
-					width: 32px;
-					height: 25px;
-					display: flex;
-					flex-direction: column;
-					justify-content: space-between;
-					cursor: pointer;
-
-					span {
-						width: 100%;
-						height: 3px;
-						background-color: $mainColor;
-						transform-origin: left;
-						transition: all 2s ease;
 					}
 				}
 			}
@@ -123,9 +107,9 @@
 				align-items: flex-start;
 				clip-path: polygon(
 					100% 0%,
-					100% 0%,
-					100% 80%,
-					25% 120%,
+					100% 51%,
+					100% 100%,
+					25% 100%,
 					0% 50%,
 					25% 0%
 				);
@@ -220,26 +204,6 @@
 					100% {
 						opacity: 0;
 					}
-				}
-			}
-		}
-		a {
-			position: absolute;
-			bottom: 10px;
-			left: 40%;
-
-			.arrow {
-				font-size: 70px;
-				color: black;
-				animation: arrowBlink 2s infinite;
-				@include mobile {
-					display: none;
-				}
-			}
-
-			@keyframes arrowBlink {
-				100% {
-					opacity: 0;
 				}
 			}
 		}

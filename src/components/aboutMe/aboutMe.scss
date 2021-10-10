@@ -55,6 +55,10 @@
 					height: 45vh;
 					border-radius: 10px;
 					box-shadow: 0.3rem 0.3rem 0.65rem 0.2rem darkgray;
+					transition: transform 0.2s;
+					&:hover {
+						transform: scale(1.1);
+					}
 					@include mobile {
 						height: 30vh;
 						border-radius: 50%;
@@ -79,6 +83,10 @@
 				height: 120px;
 				border-radius: 5px;
 				box-shadow: 0.3rem 0.3rem 0.65rem 0.2rem darkgray;
+				transition: transform 0.5s;
+				&:hover {
+					transform: scale(1.1);
+				}
 			}
 		}
 		@include mobile {

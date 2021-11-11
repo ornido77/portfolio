@@ -8,10 +8,10 @@ select:focus {
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	min-height: 100vh;
 
 	.top {
-		flex: 9;
+		flex: 7;
 		display: flex;
 		@include mobile {
 			flex-direction: column;
@@ -175,7 +175,7 @@ select:focus {
 		}
 	}
 	.bot {
-		flex: 1;
+		flex: 3;
 		background-color: #34495e;
 		@include mobile {
 			display: none;

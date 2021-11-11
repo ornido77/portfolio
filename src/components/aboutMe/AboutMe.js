@@ -24,10 +24,7 @@ function AboutMe() {
 				</div>
 				<div className="right">
 					<div className="imgContainer">
-						<img
-							src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.6435-9/40464224_2220846648172740_3908370726977011712_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_eui2=AeHhgnYG2cpS63r57Uik-R0xzXa-nmwTx3vNdr6ebBPHe0R_9OJZTL9P4KyxRbEl7iaAtWodgnYHWMJzRR7IHDTy&_nc_ohc=SkF72jfRvHIAX8bGM4q&tn=bW8eWftbAr7XwxqQ&_nc_ht=scontent.fmnl17-2.fna&oh=625b705d47c40fde3baab385b8329bdd&oe=6187AB1F"
-							alt=""
-						/>
+						<img src="" alt="" />
 					</div>
 				</div>
 			</div>
